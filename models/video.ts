@@ -5,7 +5,7 @@ export const VIDEO_DIMENSIONS = {
   height: 1920,
 } as const;
 
-interface Video {
+export interface Video {
   title: string;
   description: string;
   videoUrl: string;
